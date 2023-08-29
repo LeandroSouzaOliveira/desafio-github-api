@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --color-body-bg: #ffffff;
+
+  --color-header-bg: #1890ff;
+  --color-header-font: #ffffff;
+
+  --color-section-card-search-bg: #e6f7ff;
+  --color-section-card-search-title: #262626;
+  --color-section-card-search-placeholder: #bfbfbf;
+  --color-section-search-btn-bg: #1890ff;
+  --color-section-search-btn-font: #ffffff;
+
+  --color-section-card-information-bg: #737373;
+  --color-section-card-information-forms-bg: #ffffff;
+  --color-section-card-information-title: #1890ff;
+  --color-section-card-information-forms-input: #737373;
+
+  --color-notfound-font: #ff2323;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: var(--color-body-bg);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}

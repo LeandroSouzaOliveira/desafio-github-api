@@ -1,0 +1,11 @@
+import "./style.css";
+
+export default function Header() {
+  return (
+    <header>
+      <div className="container">
+        <h3>Github API</h3>
+      </div>
+    </header>
+  );
+}
