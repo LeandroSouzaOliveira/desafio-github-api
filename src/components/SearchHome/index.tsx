@@ -10,7 +10,7 @@ export default function SearchHome() {
             <p>Encontre um perfil Github</p>
             <input type="text" placeholder="Usuário Github" />
           </div>
-          <Button text="Encontrar" />
+            <Button text="Encontrar" />
         </div>
       </section>
     </main>
