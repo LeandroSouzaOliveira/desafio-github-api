@@ -1,5 +1,6 @@
 .search-card {
   background-color: var(--color-search-card-bg);
+  max-width: 1251px;
   height: 150px;
   margin: 40px 15px;
   padding: 30px 31px;
@@ -7,14 +8,16 @@
 }
 
 .search-card-content p {
-  font-size: 20px;
-  color: var(--color-search-title-font);
   padding-bottom: 12px;
+  color: var(--color-search-title-font);
+  font-size: 20px;
+  font-weight: 500px;
 }
 
-.search-card-content input {
-  font-size: 12px;
+.search-card-content input::placeholder {
   color: var(--color-search-card-placeholder);
+  font-size: 12px;
+  padding-left: 5px;
 }
 
 @media (min-width: 576px) {

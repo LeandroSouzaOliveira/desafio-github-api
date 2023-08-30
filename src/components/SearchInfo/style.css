@@ -1,0 +1,83 @@
+.information-card {
+  background-color: var(--color-search-card-information-bg);
+  max-width: 1251px;
+  margin: 15px;
+  height: 200px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.information-card-content {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-card-content img {
+  width: 100px;
+  height: 100px;
+  padding-right: 8px;
+}
+
+.information-form-content {
+  background-color: var(--color-search-card-information-content-bg);
+  border: 1px solid var(--color-search-card-information-content-border);
+  width: 100%;
+  height: 180px;
+  padding: 5px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.information-form-content h3 {
+  color: var(--color-search-card-information-content-title);
+  padding: 3px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-content {
+  padding: 5px;
+}
+
+.form-content-input {
+  border: 1px solid var(--color-search-card-information-content-border);
+  color: var(--color-search-card-information-content-placeholder);
+  height: 25px;
+  margin-top: 8px;
+  padding: 3px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .information-card {
+    height: 334px;
+  }
+
+  .information-card-content img {
+    width: 250px;
+    height: 250px;
+    padding: 40px 25px 40px 40px;
+  }
+
+  .information-form-content h3 {
+    font-size: 20px;
+  }
+
+  .information-form-content {
+    height: 250px;
+    margin-right: 35px;
+  }
+
+  .form-content-input {
+    height: 40px;
+    font-size: 16px;
+  }
+}

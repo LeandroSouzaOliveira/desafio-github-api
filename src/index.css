@@ -13,10 +13,12 @@
   --color-search-title-font: #262626;
   --color-search-card-placeholder: #BFBFBF;
 
-  --color-search-card-information-bg: #737373;
-  --color-search-card-information-forms-bg: #ffffff;
-  --color-search-card-information-title: #1890ff;
-  --color-search-card-information-forms-input: #737373;
+  --color-search-card-information-bg: #F5F5F5;
+
+  --color-search-card-information-content-bg: #ffffff;
+  --color-search-card-information-content-border: #D9D9D9;
+  --color-search-card-information-content-title: #1890ff;
+  --color-search-card-information-content-placeholder: #737373;
 
   --color-btn-bg: #1890ff;
   --color-btn-font: #ffffff;
