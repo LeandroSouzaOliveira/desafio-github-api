@@ -1,0 +1,24 @@
+.begin-card {
+  margin-top: 27px;
+  padding-left: 40px;
+}
+
+.begin-card-content h1 {
+  font-size: 24px;
+  color: var(--color-begin-title-font);
+}
+
+.begin-card-content h3 {
+  font-size: 12px;
+  color: var(--color-begin-subtitle-font);
+}
+
+@media (min-width: 576px) {
+  .begin-card-content h1 {
+    font-size: 48px;
+  }
+
+  .begin-card-content h3 {
+    font-size: 24px;
+  }
+}
