@@ -1,10 +1,19 @@
-import './style.css';
+import { Link } from "react-router-dom";
+import "./style.css";
 
-export default function Button() {
+type Props = {
+  text: string;
+};
+
+export default function Button({ text }: Props) {
   return (
     <main>
       <section className="container">
-          <button className="begin-card-btn" type="submit">Começar</button>
+        <Link to="/search">
+          <button className="begin-card-btn" type="submit">
+            {text}
+          </button>
+        </Link>
       </section>
     </main>
   );

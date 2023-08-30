@@ -6,21 +6,22 @@
   --color-header-bg: #1890ff;
   --color-header-font: #ffffff;
 
-  --color-begin-bg: #e6f7ff;
   --color-begin-title-font: #000000;
   --color-begin-subtitle-font: #7E7E7E;
 
-  --color-begin-btn-bg: #1890ff;
-  --color-begin-btn-font: #ffffff;
+  --color-search-card-bg: #E6F7FF;
+  --color-search-title-font: #262626;
+  --color-search-card-placeholder: #BFBFBF;
 
-  --color-section-card-information-bg: #737373;
-  --color-section-card-information-forms-bg: #ffffff;
-  --color-section-card-information-title: #1890ff;
-  --color-section-card-information-forms-input: #737373;
+  --color-search-card-information-bg: #737373;
+  --color-search-card-information-forms-bg: #ffffff;
+  --color-search-card-information-title: #1890ff;
+  --color-search-card-information-forms-input: #737373;
+
+  --color-btn-bg: #1890ff;
+  --color-btn-font: #ffffff;
 
   --color-notfound-font: #ff2323;
-
-  --color-placeholder: #bfbfbf;
 }
 
 * {

@@ -10,7 +10,7 @@ export default function BeginCard() {
             <h1>Desafio Github API</h1>
             <h3>DevSuperior - Escola de programação</h3>
           </div>
-          <Button />
+          <Button text="Começar" />
         </div>
       </section>
     </main>
