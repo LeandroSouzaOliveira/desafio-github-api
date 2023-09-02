@@ -1,10 +1,10 @@
-import BeginCard from "../../../components/BeginHome";
+import CardBegin from "../../../components/CardBegin";
 
 export default function Begin() {
   return (
     <main>
-      <section>
-        <BeginCard />
+      <section className="container">
+        <CardBegin />
       </section>
     </main>
   );

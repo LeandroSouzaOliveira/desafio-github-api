@@ -7,16 +7,16 @@
   --color-header-font: #ffffff;
 
   --color-begin-title-font: #000000;
-  --color-begin-subtitle-font: #7E7E7E;
+  --color-begin-subtitle-font: #7e7e7e;
 
-  --color-search-card-bg: #E6F7FF;
+  --color-search-card-bg: #e6f7ff;
   --color-search-title-font: #262626;
-  --color-search-card-placeholder: #BFBFBF;
+  --color-search-card-placeholder: #bfbfbf;
 
-  --color-search-card-information-bg: #F5F5F5;
+  --color-search-card-information-bg: #f5f5f5;
 
   --color-search-card-information-content-bg: #ffffff;
-  --color-search-card-information-content-border: #D9D9D9;
+  --color-search-card-information-content-border: #d9d9d9;
   --color-search-card-information-content-title: #1890ff;
   --color-search-card-information-content-placeholder: #737373;
 
@@ -48,4 +48,12 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   width: 100%;
+}
+
+.btn {
+  background-color: var(--color-btn-bg);
+  color: var(--color-btn-font);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }

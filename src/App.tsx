@@ -10,12 +10,12 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} >
-          <Route index element={<Navigate to="/home" />} />
-          <Route path="home" element={<Begin />} />
+          <Route index element={<Navigate to="/begin" />} />
+          <Route path="begin" element={<Begin />} />
         </Route>
         <Route path="search" element={<Search />} >
-          <Route path="information" element={<Information />} />
-          <Route path="notfound" element={<NotFound />} />
+          <Route path="information/:sendUser" element={<Information />} />
+          <Route path="not-found" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

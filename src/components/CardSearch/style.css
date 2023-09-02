@@ -7,6 +7,13 @@
   border-radius: 16px;
 }
 
+.begin-card-btn {
+  width: 80px;
+  height: 25px;
+  margin-top: 27px;
+  font-size: 12px;
+}
+
 .search-card-content p {
   padding-bottom: 12px;
   color: var(--color-search-title-font);
@@ -17,6 +24,7 @@
 .search-card-content input {
   border: 1px solid var(--color-search-card-information-content-border);
   border-radius: 4px;
+  padding-left: 10px;
 }
 
 .search-card-content input:focus {
@@ -26,7 +34,6 @@
 .search-card-content input::placeholder {
   color: var(--color-search-card-placeholder);
   font-size: 12px;
-  padding-left: 5px;
 }
 
 @media (min-width: 576px) {
@@ -34,6 +41,12 @@
     height: 270px;
     margin-top: 54px;
     padding: 54px 31px;
+  }
+
+  .begin-card-btn {
+    width: 80px;
+    height: 25px;
+    font-size: 16px;
   }
 
   .search-card-content p {

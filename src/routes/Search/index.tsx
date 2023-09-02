@@ -1,13 +1,15 @@
 import { Outlet } from "react-router-dom";
-import SearchHome from "../../components/SearchHome";
 import Header from "../../components/Header";
+import CardSearch from "../../components/CardSearch";
 
 export default function Search() {
   return (
     <>
       <Header />
       <main>
-        <SearchHome />
+        <section className="container">
+          <CardSearch />
+        </section>
       </main>
       <Outlet />
     </>
