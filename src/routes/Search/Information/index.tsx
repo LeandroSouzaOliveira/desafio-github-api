@@ -18,7 +18,7 @@ export default function Information() {
       .catch(() => {
         navigate("/search/not-found");
       });
-  }, []);
+  }, [params.sendUser, navigate]);
 
   return <section>{profile && <CardInfo profile={profile} />}</section>;
 }
